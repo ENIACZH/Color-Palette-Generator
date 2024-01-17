@@ -29,11 +29,14 @@ This Python script helps streamline the process by automatically generating a co
 
 ## Examples
 ![1](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/9887c3ff-dceb-4ed6-a481-dbf61b032aa3)
+
 *High-resolution and high-contrast image.*
 
 ![2](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/feb97410-3c91-4cc8-a9c1-36a31e350f8b)
+
 *Another example with clear color definition.*
 
 ![3](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/c2802b23-d2d0-44b8-b3d1-7c9ed13a9526)
+
 
 Feel free to use and customize the script to enhance your animation design workflow!
