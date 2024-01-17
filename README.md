@@ -19,7 +19,7 @@ This Python script helps streamline the process by automatically generating a co
 2. Adjust parameters based on your preferences and image characteristics.
 3. Run the script to generate a Photoshop JSX file.
 4. Open the JSX file in Photoshop (`File` -> `Scripts` -> `Browse...`).
-5. Obtain a 1080x1080px RGB color palette with solid rectangles and text, named after the original image.
+5. Obtain a 1080x1080px RGB color palette with solid rectangles and text(layers), named after the original image.
 
 ## Important Notes
 
@@ -28,15 +28,12 @@ This Python script helps streamline the process by automatically generating a co
 - `estimate_color_complexity` predicts `min_cluster_size` to avoid manual adjustment.
 
 ## Examples
-![1](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/126dcd40-db2b-47ce-afd6-6e62cf80f3d5)
-
+![1](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/9887c3ff-dceb-4ed6-a481-dbf61b032aa3)
 *High-resolution and high-contrast image.*
 
-![2](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/07487922-c1f7-4463-8bab-806fdc399e50)
+![2](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/feb97410-3c91-4cc8-a9c1-36a31e350f8b)
 *Another example with clear color definition.*
 
-![3](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/83e1a91b-d43e-4cb7-a6ff-db0f1e17a2c7)
-
-*Example with high color complexity.*
+![3](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/c2802b23-d2d0-44b8-b3d1-7c9ed13a9526)
 
 Feel free to use and customize the script to enhance your animation design workflow!
