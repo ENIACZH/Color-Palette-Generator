@@ -28,14 +28,15 @@ This Python script helps streamline the process by automatically generating a co
 - `estimate_color_complexity` predicts `min_cluster_size` to avoid manual adjustment.
 
 ## Examples
+![1](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/126dcd40-db2b-47ce-afd6-6e62cf80f3d5)
 
-![Example 1](example1.jpg)
 *High-resolution and high-contrast image.*
 
-![Example 2](example2.jpg)
+![2](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/07487922-c1f7-4463-8bab-806fdc399e50)
 *Another example with clear color definition.*
 
-![Example 3](example3.jpg)
+![3](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/83e1a91b-d43e-4cb7-a6ff-db0f1e17a2c7)
+
 *Example with high color complexity.*
 
 Feel free to use and customize the script to enhance your animation design workflow!
