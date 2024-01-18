@@ -28,8 +28,9 @@ This Python script helps streamline the process by automatically generating a co
 - `estimate_color_complexity` predicts `min_cluster_size` to avoid manual adjustment.
 
 ## Examples
-![1][微信截图_20240118102307](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/1a30d44a-2bb6-49bb-8031-a3eeb19024c6)
 
+
+![微信截图_20240118102307](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/d68a1266-63ca-4ea7-9ebf-9e85850e74c7)
 
 *High-resolution and high-contrast image.*
 
