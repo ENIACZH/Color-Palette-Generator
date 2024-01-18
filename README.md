@@ -43,8 +43,6 @@ This Python script helps streamline the process by automatically generating a co
 Note: Before running the scripts, it is recommended to convert all images to RGB mode in Adobe Bridge. 
 This can help avoid potential issues, and the following line in the script is optional:
 
-python
-Copy code
 img = Image.fromarray(img).convert("RGB")
 
 
