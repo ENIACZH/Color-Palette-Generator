@@ -1,4 +1,4 @@
-# Color-Palette-Generator
+# Color-Palette-Generator-RGB
 Easy-to-use tool for generating color palettes, but manual checking is recommended for optimal results
 
 As a designer in the animation industry, creating a well-defined color palette is crucial. 
@@ -37,6 +37,13 @@ This Python script helps streamline the process by automatically generating a co
 *Another example with clear color definition.*
 
 ![3](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/c2802b23-d2d0-44b8-b3d1-7c9ed13a9526)
+
+Note: Before running the scripts, it is recommended to convert all images to RGB mode in Adobe Bridge. 
+This can help avoid potential issues, and the following line in the script is optional:
+
+python
+Copy code
+img = Image.fromarray(img).convert("RGB")
 
 
 Feel free to use and customize the script to enhance your animation design workflow!
