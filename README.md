@@ -28,6 +28,7 @@ This Python script helps streamline the process by automatically generating a co
 - `estimate_color_complexity` predicts `min_cluster_size` to avoid manual adjustment.
 
 ## Examples
+![guide](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/1adf2fa8-9bad-4476-9389-0d81f5797ddc)
 
 
 ![微信截图_20240118102307](https://github.com/ENIACZH/Color-Palette-Generator/assets/129947787/d68a1266-63ca-4ea7-9ebf-9e85850e74c7)
@@ -47,3 +48,37 @@ img = Image.fromarray(img).convert("RGB")
 
 
 Feel free to use and customize the script to enhance your animation design workflow!
+
+只需修改文件夹路径，kmeans会自动识别主要颜色，保存Java脚本生成色指定，但仍需手动检查，一般在最后几个排位可能有偏差
+
+## 特点
+
+- 适用于简单纯色图像。
+- 可调参数以进行定制：
+  - `max_colors`：调色板中的最大颜色数（默认：15）。
+  - `color_tolerance`：颜色容差，影响相似颜色的过滤，对于对比度不是很高的图像需要减少（默认：32）。
+  - `min_cluster_size`：最小聚类大小，影响调色板的简单性和对比度（默认：50），纯色块高对比度可以拉到200，复杂颜色可以降多一点。
+  - `min_colors`：调色板中的最小颜色数（默认：5）。
+
+## 用法
+
+1. 确保您的图像适合提取纯色。
+2. 根据您的偏好和图像特性调整参数。
+3. 替换文件夹路径，运行脚本以生成带有RGB色值的Photoshop JSX 文件。
+4. 在 Photoshop 中打开 JSX 文件（`文件` -> `脚本` -> `浏览...`）。
+5. 获取一个以原始图像命名的 1080x1080px画布的psd，其中包含分层的rgb色指文本层和方形色块层。
+
+## 重要注意事项
+
+- **max_colors**：取决于图像的颜色范围和您想要控制的内容。不适用于具有阴影和光变化的图像。
+- **min_cluster_size**：影响简单性和对比度。建议对简单且高对比度的图像使用更高的值。
+- `estimate_color_complexity` 预测 `min_cluster_size` 以避免手动调整。
+
+
+注意：在运行脚本之前，建议在 Adobe Bridge 中将所有图像转换为 RGB 模式。
+这有助于避免潜在问题，脚本中的以下行是可选的：
+
+img = Image.fromarray(img).convert("RGB")
+
+随意使用和定制脚本，以增强您的动画设计工作流程！
+
